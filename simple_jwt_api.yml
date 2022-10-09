@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: eksctl-demo
-          image: myimage
+          image: CONTAINER_IMAGE
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
